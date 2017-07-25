@@ -1,0 +1,4 @@
+#( cd functions;yarn install)
+#( cd src;yarn install;npm run build )
+#firebase deploy --project tokens-b52b7
+firebase serve --only hosting,functions --project tokens-b52b7
